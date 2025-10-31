@@ -1,0 +1,350 @@
+student_id,school,sex,age,address_type,family_size,mother_education,father_education,father_job,school_choice_reason,guardian,travel_time,study_time,class_failures,school_support,family_support,extra_paid_classes,activities,nursery_school,higher_ed,internet_access,romantic_relationship,free_time,social,weekday_alcohol,weekend_alcohol,health,absences,final_grade
+1,GP,F,18,Urban,Greater than 3,higher education,higher education,teacher,course,mother,15 to 30 min.,2 to 5 hours,0,yes,no,no,no,yes,yes,no,no,3,4,1,1,3,6,6
+2,GP,F,17,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,course,father,<15 min.,2 to 5 hours,0,no,yes,no,no,no,yes,yes,no,3,3,1,1,3,4,6
+3,GP,F,15,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,other,mother,<15 min.,2 to 5 hours,3,yes,no,yes,no,yes,yes,yes,no,3,2,2,3,3,10,10
+4,GP,F,15,Urban,Greater than 3,higher education,5th to 9th grade,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,2,2,1,1,5,2,15
+5,GP,F,16,Urban,Greater than 3,secondary education,secondary education,other,home,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,no,3,2,1,2,5,4,10
+6,GP,M,16,Urban,Less than or equal to 3,higher education,secondary education,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,2,1,2,5,10,15
+7,GP,M,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,yes,no,4,4,1,1,3,0,11
+8,GP,F,17,Urban,Greater than 3,higher education,higher education,teacher,home,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,no,no,yes,yes,no,no,1,4,1,1,1,6,6
+9,GP,M,15,Urban,Less than or equal to 3,secondary education,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,2,2,1,1,1,0,19
+10,GP,M,15,Urban,Greater than 3,secondary education,higher education,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,5,1,1,1,5,0,15
+11,GP,F,15,Urban,Greater than 3,higher education,higher education,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,1,2,2,0,9
+12,GP,F,15,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,reputation,father,30 min. to 1 hour,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,2,2,1,1,4,4,12
+13,GP,M,15,Urban,Less than or equal to 3,higher education,higher education,services,course,father,<15 min.,<2 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,3,1,3,5,2,14
+14,GP,M,15,Urban,Greater than 3,higher education,secondary education,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,4,3,1,2,3,2,11
+15,GP,M,15,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,other,<15 min.,5 to 10 hours,0,no,yes,no,no,yes,yes,yes,yes,5,2,1,1,3,0,16
+16,GP,F,16,Urban,Greater than 3,higher education,higher education,other,home,mother,<15 min.,<2 hours,0,no,yes,no,no,yes,yes,yes,no,4,4,1,2,2,4,14
+17,GP,F,16,Urban,Greater than 3,higher education,higher education,services,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,2,3,1,2,2,6,14
+18,GP,F,16,Urban,Greater than 3,secondary education,secondary education,other,reputation,mother,30 min. to 1 hour,2 to 5 hours,0,yes,yes,no,yes,yes,yes,no,no,3,2,1,1,4,4,10
+19,GP,M,17,Urban,Greater than 3,secondary education,5th to 9th grade,services,course,mother,<15 min.,<2 hours,3,no,yes,no,yes,yes,yes,yes,no,5,5,2,4,5,16,5
+20,GP,M,16,Urban,Less than or equal to 3,higher education,secondary education,other,home,father,<15 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,1,3,1,3,5,4,10
+21,GP,M,15,Urban,Greater than 3,higher education,secondary education,other,reputation,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,yes,no,4,1,1,1,1,0,15
+22,GP,M,15,Urban,Greater than 3,higher education,higher education,health,other,father,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,no,4,2,1,1,5,0,15
+23,GP,M,16,Urban,Less than or equal to 3,higher education,5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,5,1,1,3,5,2,16
+24,GP,M,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,4,4,2,4,5,0,12
+25,GP,F,15,Rural,Greater than 3,5th to 9th grade,higher education,health,course,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,yes,yes,yes,yes,no,3,2,1,1,5,2,8
+26,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,services,home,mother,<15 min.,<2 hours,2,no,yes,yes,no,no,yes,yes,no,2,2,1,3,5,14,8
+27,GP,M,15,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,no,2,2,1,2,5,2,11
+28,GP,M,15,Urban,Greater than 3,higher education,5th to 9th grade,services,other,mother,<15 min.,<2 hours,0,no,no,yes,no,yes,yes,yes,no,2,4,2,4,1,4,15
+29,GP,M,16,Urban,Less than or equal to 3,secondary education,higher education,other,home,mother,<15 min.,2 to 5 hours,0,yes,yes,no,yes,yes,yes,yes,no,3,3,1,1,5,4,11
+30,GP,M,16,Urban,Greater than 3,higher education,higher education,teacher,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,4,5,5,5,5,16,11
+31,GP,M,15,Urban,Greater than 3,higher education,higher education,services,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,4,2,3,4,5,0,12
+32,GP,M,15,Urban,Greater than 3,higher education,higher education,services,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,3,1,1,1,5,0,17
+33,GP,M,15,Rural,Greater than 3,higher education,secondary education,at_home,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,5,2,1,1,5,0,16
+34,GP,M,15,Urban,Less than or equal to 3,secondary education,secondary education,other,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,no,3,2,1,1,2,0,12
+35,GP,M,16,Urban,Greater than 3,secondary education,5th to 9th grade,other,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,no,yes,yes,no,4,3,1,1,5,0,15
+36,GP,F,15,Urban,Greater than 3,5th to 9th grade,secondary education,other,other,father,15 to 30 min.,<2 hours,0,no,yes,no,yes,yes,yes,no,no,5,1,1,1,5,0,6
+37,GP,M,15,Urban,Less than or equal to 3,higher education,secondary education,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,4,3,1,1,4,2,18
+38,GP,M,16,Rural,Greater than 3,higher education,higher education,teacher,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,yes,4,3,1,1,5,7,15
+39,GP,F,15,Rural,Greater than 3,secondary education,higher education,health,course,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,yes,yes,yes,yes,no,3,2,1,1,5,2,11
+40,GP,F,15,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,<15 min.,<2 hours,0,yes,yes,yes,yes,yes,yes,no,no,3,1,1,1,2,8,13
+41,GP,F,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,home,mother,15 to 30 min.,2 to 5 hours,1,no,yes,no,yes,no,yes,yes,yes,3,3,1,2,3,25,11
+42,GP,M,15,Urban,Less than or equal to 3,higher education,higher education,other,home,other,<15 min.,<2 hours,0,no,yes,no,no,no,yes,yes,yes,4,3,2,4,5,8,12
+43,GP,M,15,Urban,Greater than 3,higher education,higher education,teacher,course,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,3,3,1,1,5,2,18
+44,GP,M,15,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,services,course,father,<15 min.,<2 hours,0,yes,yes,no,no,yes,yes,yes,no,4,1,1,1,1,0,11
+45,GP,F,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,at_home,course,father,15 to 30 min.,2 to 5 hours,1,yes,no,no,yes,yes,yes,yes,no,3,3,2,2,5,14,9
+46,GP,F,15,Urban,Less than or equal to 3,higher education,secondary education,other,course,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,yes,yes,2,2,1,1,5,8,6
+47,GP,F,16,Urban,Less than or equal to 3,secondary education,secondary education,services,home,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,3,5,1,4,3,12,11
+48,GP,M,16,Urban,Greater than 3,higher education,secondary education,services,reputation,mother,<15 min.,>10 hours,0,no,no,no,yes,yes,yes,yes,no,2,2,1,1,2,4,20
+49,GP,M,15,Urban,Greater than 3,higher education,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,no,3,3,2,2,5,2,14
+50,GP,F,15,Urban,Greater than 3,higher education,higher education,teacher,other,father,<15 min.,2 to 5 hours,1,yes,yes,no,yes,no,yes,yes,no,4,4,1,1,3,2,7
+51,GP,F,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,services,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,2,3,4,2,13
+52,GP,F,15,Urban,Less than or equal to 3,higher education,5th to 9th grade,other,other,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,1,1,5,2,13
+53,GP,M,15,Urban,Less than or equal to 3,higher education,5th to 9th grade,health,other,father,15 to 30 min.,<2 hours,1,no,no,no,no,yes,yes,no,no,5,5,3,4,5,6,10
+54,GP,F,15,Urban,Greater than 3,higher education,higher education,services,course,mother,<15 min.,<2 hours,0,yes,yes,yes,no,yes,yes,yes,no,3,4,2,3,5,0,11
+55,GP,F,15,Urban,Less than or equal to 3,secondary education,secondary education,other,other,mother,<15 min.,<2 hours,0,no,no,yes,no,yes,yes,yes,no,3,4,4,4,1,6,13
+56,GP,F,16,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,other,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,3,4,1,1,2,8,10
+57,GP,F,15,Urban,Greater than 3,higher education,secondary education,services,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,2,1,1,1,0,15
+58,GP,M,15,Urban,Greater than 3,higher education,higher education,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,2,2,1,1,5,4,15
+59,GP,M,15,Urban,Less than or equal to 3,primary education (4th grade),5th to 9th grade,at_home,home,father,<15 min.,2 to 5 hours,0,yes,yes,no,yes,yes,yes,yes,no,3,2,1,1,5,2,9
+60,GP,F,16,Urban,Greater than 3,higher education,5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,2,3,1,1,5,2,16
+61,GP,F,16,Rural,Greater than 3,higher education,higher education,teacher,other,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,4,4,2,3,4,6,11
+62,GP,F,16,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),services,course,father,>1 hour,<2 hours,0,yes,yes,no,yes,no,yes,yes,yes,5,5,5,5,5,6,11
+63,GP,F,16,Urban,Less than or equal to 3,primary education (4th grade),5th to 9th grade,services,reputation,father,<15 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,no,4,3,1,1,1,4,9
+64,GP,F,16,Urban,Greater than 3,higher education,secondary education,health,home,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,yes,yes,yes,yes,no,4,4,2,4,4,2,9
+65,GP,F,15,Urban,Less than or equal to 3,higher education,secondary education,services,reputation,father,<15 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,yes,4,4,2,4,2,0,10
+66,GP,F,16,Urban,Less than or equal to 3,higher education,secondary education,services,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,4,3,1,2,1,2,15
+67,GP,M,15,Urban,Greater than 3,higher education,higher education,services,reputation,mother,<15 min.,>10 hours,0,no,yes,no,yes,no,yes,yes,yes,3,3,5,5,3,4,12
+68,GP,F,16,Urban,Greater than 3,secondary education,primary education (4th grade),other,course,mother,<15 min.,>10 hours,0,yes,yes,yes,no,yes,yes,yes,no,3,3,1,2,5,4,6
+69,GP,F,15,Rural,Less than or equal to 3,5th to 9th grade,5th to 9th grade,services,reputation,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,no,1,3,1,3,4,2,8
+70,GP,F,15,Rural,Less than or equal to 3,secondary education,primary education (4th grade),other,reputation,father,15 to 30 min.,>10 hours,0,no,yes,no,no,no,yes,yes,no,4,2,2,3,3,12,16
+71,GP,M,16,Urban,Greater than 3,secondary education,primary education (4th grade),other,reputation,father,15 to 30 min.,>10 hours,0,no,yes,yes,no,yes,yes,yes,no,3,2,1,1,5,0,15
+72,GP,M,15,Urban,Greater than 3,higher education,5th to 9th grade,other,course,mother,<15 min.,>10 hours,0,no,no,no,no,yes,yes,yes,no,3,3,1,1,3,0,10
+73,GP,F,15,Rural,Greater than 3,primary education (4th grade),primary education (4th grade),other,reputation,mother,<15 min.,2 to 5 hours,2,yes,yes,no,no,no,yes,yes,yes,3,4,2,4,5,2,5
+74,GP,M,16,Urban,Greater than 3,secondary education,primary education (4th grade),other,reputation,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,no,no,3,2,2,2,5,2,14
+75,GP,F,16,Urban,Greater than 3,secondary education,secondary education,services,home,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,yes,no,3,3,2,4,5,54,11
+76,GP,M,15,Urban,Greater than 3,higher education,secondary education,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,3,2,3,5,6,10
+77,GP,M,15,Urban,Greater than 3,higher education,none,other,course,mother,15 to 30 min.,>10 hours,0,no,no,no,yes,yes,yes,yes,no,4,3,1,1,1,8,10
+78,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,<15 min.,>10 hours,0,no,no,yes,no,yes,yes,yes,yes,2,3,1,3,3,0,11
+79,GP,M,17,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,home,mother,15 to 30 min.,<2 hours,3,yes,yes,no,yes,yes,no,yes,no,5,1,1,1,3,2,10
+80,GP,F,16,Urban,Greater than 3,secondary education,higher education,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,4,3,1,2,3,12,5
+81,GP,M,15,Urban,Greater than 3,5th to 9th grade,secondary education,services,course,father,<15 min.,<2 hours,0,yes,yes,yes,yes,no,yes,yes,yes,2,2,1,3,3,2,12
+82,GP,M,15,Urban,Greater than 3,5th to 9th grade,secondary education,other,home,mother,<15 min.,5 to 10 hours,0,yes,no,yes,no,no,yes,yes,no,3,2,1,2,5,4,11
+83,GP,F,15,Urban,Less than or equal to 3,secondary education,5th to 9th grade,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,4,4,1,1,5,10,6
+84,GP,M,15,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,services,home,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,3,3,1,3,4,4,15
+85,GP,F,15,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,home,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,no,yes,yes,no,3,2,2,3,4,2,10
+86,GP,F,15,Urban,Greater than 3,higher education,higher education,services,reputation,father,15 to 30 min.,2 to 5 hours,2,no,no,yes,no,yes,yes,yes,yes,4,4,2,3,5,6,8
+87,GP,F,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,no,3,4,1,2,2,4,6
+88,GP,F,15,Urban,Greater than 3,higher education,5th to 9th grade,other,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,3,3,1,3,1,4,14
+89,GP,M,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,father,15 to 30 min.,2 to 5 hours,1,no,no,yes,yes,no,yes,yes,no,4,2,1,1,3,12,10
+90,GP,M,16,Urban,Less than or equal to 3,higher education,higher education,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,no,1,3,3,5,5,18,7
+91,GP,F,16,Urban,Greater than 3,secondary education,secondary education,other,home,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,yes,3,3,1,3,4,0,8
+92,GP,F,15,Urban,Greater than 3,higher education,secondary education,other,reputation,mother,<15 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,5,5,1,3,1,4,18
+93,GP,F,16,Urban,Less than or equal to 3,secondary education,primary education (4th grade),other,home,father,<15 min.,2 to 5 hours,0,yes,yes,no,no,yes,yes,no,no,3,3,2,3,2,4,6
+94,GP,F,16,Urban,Greater than 3,higher education,5th to 9th grade,services,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,3,1,1,1,0,10
+95,GP,M,15,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,health,reputation,mother,<15 min.,>10 hours,0,no,yes,no,yes,yes,yes,yes,no,3,4,1,1,4,6,14
+96,GP,F,15,Rural,Greater than 3,primary education (4th grade),primary education (4th grade),other,home,mother,15 to 30 min.,>10 hours,1,yes,yes,yes,yes,yes,yes,yes,no,1,2,1,1,1,2,10
+97,GP,M,16,Rural,Greater than 3,higher education,secondary education,other,reputation,mother,15 to 30 min.,<2 hours,0,yes,yes,no,yes,no,yes,yes,no,3,3,1,1,4,2,15
+98,GP,F,16,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,yes,3,5,1,1,5,2,10
+99,GP,F,16,Urban,Greater than 3,higher education,higher education,other,reputation,mother,<15 min.,<2 hours,0,no,no,no,yes,no,yes,yes,no,3,4,1,2,1,6,14
+100,GP,F,16,Urban,Greater than 3,higher education,secondary education,at_home,course,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,no,yes,yes,yes,no,3,5,1,1,3,0,8
+101,GP,M,16,Urban,Greater than 3,higher education,higher education,services,other,mother,<15 min.,<2 hours,0,yes,yes,yes,yes,yes,yes,yes,no,5,5,5,5,4,14,5
+102,GP,M,16,Urban,Greater than 3,higher education,higher education,teacher,other,father,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,yes,4,3,1,1,4,0,17
+103,GP,M,15,Urban,Greater than 3,higher education,higher education,other,course,mother,<15 min.,<2 hours,0,no,yes,no,yes,no,yes,yes,no,3,3,1,1,5,4,14
+104,GP,F,15,Urban,Greater than 3,secondary education,5th to 9th grade,other,home,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,no,3,5,1,1,2,26,6
+105,GP,M,15,Urban,Greater than 3,secondary education,higher education,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,4,1,1,1,0,18
+106,GP,F,15,Urban,Greater than 3,secondary education,secondary education,health,reputation,father,<15 min.,>10 hours,0,yes,no,no,no,yes,yes,no,no,3,3,1,1,4,10,11
+107,GP,F,15,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,mother,<15 min.,>10 hours,0,yes,yes,yes,no,yes,yes,yes,no,1,2,1,1,3,8,8
+108,GP,M,16,Urban,Greater than 3,secondary education,secondary education,other,home,father,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,3,3,1,1,5,2,18
+109,GP,M,15,Rural,Greater than 3,higher education,higher education,other,home,father,>1 hour,>10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,3,5,3,5,1,6,13
+110,GP,F,16,Urban,Less than or equal to 3,higher education,higher education,health,other,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,4,5,1,1,4,4,16
+111,GP,M,15,Urban,Less than or equal to 3,higher education,higher education,teacher,course,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,5,3,1,1,4,6,19
+112,GP,F,16,Rural,Greater than 3,secondary education,secondary education,other,reputation,father,<15 min.,5 to 10 hours,1,yes,yes,no,yes,yes,yes,yes,no,1,2,1,1,2,0,10
+113,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,1,yes,no,no,yes,yes,yes,yes,no,1,2,1,1,5,6,13
+114,GP,M,15,Urban,Less than or equal to 3,higher education,5th to 9th grade,other,course,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,5,2,1,1,3,10,19
+115,GP,M,15,Rural,Greater than 3,5th to 9th grade,primary education (4th grade),services,reputation,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,4,2,1,1,5,8,9
+116,GP,M,16,Urban,Greater than 3,higher education,higher education,teacher,course,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,4,4,1,2,5,2,16
+117,GP,M,15,Urban,Greater than 3,higher education,higher education,teacher,reputation,father,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,4,3,1,1,2,2,14
+118,GP,M,16,Urban,Greater than 3,secondary education,secondary education,services,home,father,15 to 30 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,4,2,1,1,5,0,13
+119,GP,M,17,Rural,Greater than 3,primary education (4th grade),secondary education,other,course,father,30 min. to 1 hour,2 to 5 hours,1,no,yes,no,yes,yes,yes,yes,no,2,4,1,4,5,20,8
+120,GP,M,15,Urban,Greater than 3,secondary education,higher education,other,reputation,father,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,4,3,1,2,4,6,13
+121,GP,F,15,Urban,Greater than 3,primary education (4th grade),5th to 9th grade,services,course,mother,<15 min.,2 to 5 hours,0,no,no,no,no,no,yes,yes,no,2,3,1,2,1,2,15
+122,GP,M,15,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,services,home,father,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,no,5,4,1,2,5,6,15
+123,GP,F,16,Urban,Less than or equal to 3,5th to 9th grade,higher education,health,course,father,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,2,2,1,2,5,2,13
+124,GP,M,16,Urban,Greater than 3,higher education,higher education,other,course,mother,<15 min.,<2 hours,0,no,yes,no,yes,yes,yes,yes,no,4,4,1,4,5,18,13
+125,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,yes,4,4,1,1,5,0,8
+126,GP,M,15,Urban,Greater than 3,secondary education,higher education,services,home,father,<15 min.,<2 hours,0,yes,no,no,no,yes,yes,yes,no,5,5,3,2,5,0,12
+127,GP,F,15,Urban,Less than or equal to 3,secondary education,higher education,other,home,mother,<15 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,yes,3,2,1,1,1,0,11
+128,GP,F,19,Urban,Greater than 3,none,primary education (4th grade),other,course,other,<15 min.,2 to 5 hours,3,no,yes,no,no,no,no,no,no,4,2,1,1,5,2,9
+129,GP,M,18,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,<15 min.,<2 hours,2,no,yes,no,yes,yes,yes,yes,no,3,3,1,2,4,0,0
+130,GP,M,16,Rural,Greater than 3,higher education,higher education,teacher,course,mother,<15 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,5,5,2,5,4,8,18
+131,GP,F,15,Rural,Greater than 3,secondary education,higher education,teacher,course,father,15 to 30 min.,5 to 10 hours,2,no,yes,no,no,yes,yes,yes,yes,2,2,2,2,5,0,0
+132,GP,F,15,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,course,mother,30 min. to 1 hour,<2 hours,0,no,yes,no,yes,no,yes,yes,yes,3,3,1,2,4,0,0
+133,GP,F,17,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,course,father,<15 min.,<2 hours,0,no,yes,no,no,yes,yes,yes,yes,4,4,1,3,5,12,12
+134,GP,F,16,Urban,Greater than 3,secondary education,higher education,other,course,father,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,2,1,1,4,5,16,11
+135,GP,M,15,Rural,Greater than 3,secondary education,higher education,teacher,course,mother,>1 hour,2 to 5 hours,0,no,yes,no,no,yes,yes,no,yes,3,3,1,1,5,0,0
+136,GP,F,15,Urban,Greater than 3,higher education,higher education,at_home,course,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,yes,3,3,1,1,5,0,0
+137,GP,M,17,Rural,Greater than 3,secondary education,higher education,other,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,no,no,no,yes,yes,no,no,4,5,2,4,5,0,0
+138,GP,F,16,Urban,Greater than 3,secondary education,secondary education,other,course,other,15 to 30 min.,<2 hours,2,no,yes,no,yes,no,yes,yes,yes,3,2,1,1,5,0,0
+139,GP,M,16,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,course,mother,<15 min.,2 to 5 hours,1,no,no,no,no,yes,yes,no,yes,4,4,1,3,5,0,12
+140,GP,F,15,Urban,Greater than 3,higher education,higher education,teacher,course,mother,15 to 30 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,3,2,1,1,5,0,15
+141,GP,M,15,Urban,Greater than 3,higher education,secondary education,services,course,father,15 to 30 min.,>10 hours,0,yes,yes,no,no,yes,yes,yes,no,2,2,1,1,3,0,0
+142,GP,M,16,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,services,reputation,father,15 to 30 min.,<2 hours,2,no,yes,no,yes,yes,yes,yes,no,3,3,2,2,2,8,9
+143,GP,F,15,Urban,Greater than 3,higher education,higher education,services,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,2,2,1,1,5,2,11
+144,GP,F,16,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),at_home,course,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,4,4,3,3,1,2,13
+145,GP,M,17,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,home,mother,<15 min.,<2 hours,3,no,yes,no,no,yes,yes,yes,no,4,5,1,2,5,0,0
+146,GP,F,15,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),services,course,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,4,2,1,2,5,0,11
+147,GP,F,15,Urban,Greater than 3,secondary education,5th to 9th grade,services,home,father,<15 min.,2 to 5 hours,3,no,yes,no,no,yes,yes,yes,no,3,2,1,1,3,0,0
+148,GP,F,15,Urban,Greater than 3,primary education (4th grade),5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,3,2,1,1,5,2,11
+149,GP,M,16,Urban,Greater than 3,higher education,higher education,teacher,course,mother,<15 min.,<2 hours,0,no,yes,no,no,yes,no,yes,yes,3,2,2,1,5,0,0
+150,GP,M,15,Urban,Less than or equal to 3,5th to 9th grade,primary education (4th grade),other,course,mother,>1 hour,<2 hours,3,no,no,no,no,yes,yes,yes,no,5,5,2,5,5,0,10
+151,GP,M,18,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,course,mother,<15 min.,<2 hours,3,no,no,no,no,yes,no,yes,yes,3,5,2,5,4,0,0
+152,GP,M,16,Urban,Less than or equal to 3,5th to 9th grade,primary education (4th grade),other,course,mother,<15 min.,<2 hours,1,no,no,no,yes,yes,yes,no,yes,4,4,3,5,5,6,14
+153,GP,F,15,Rural,Greater than 3,secondary education,secondary education,services,reputation,other,15 to 30 min.,5 to 10 hours,2,no,yes,yes,yes,yes,yes,yes,yes,2,1,2,3,3,8,10
+154,GP,M,19,Urban,Greater than 3,secondary education,5th to 9th grade,at_home,home,mother,<15 min.,<2 hours,3,no,yes,no,no,yes,no,yes,yes,5,4,1,1,4,0,0
+155,GP,F,17,Urban,Greater than 3,higher education,higher education,teacher,course,mother,<15 min.,<2 hours,0,yes,yes,no,no,yes,yes,no,yes,2,1,1,1,4,0,12
+156,GP,M,15,Rural,Greater than 3,5th to 9th grade,secondary education,services,course,mother,<15 min.,2 to 5 hours,0,yes,no,yes,yes,yes,yes,no,no,4,4,1,1,1,2,8
+157,GP,M,17,Rural,Less than or equal to 3,primary education (4th grade),5th to 9th grade,other,reputation,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,no,no,2,2,3,3,5,8,13
+158,GP,F,18,Rural,Greater than 3,primary education (4th grade),primary education (4th grade),other,course,mother,30 min. to 1 hour,<2 hours,3,no,yes,no,yes,no,yes,no,no,2,5,1,5,4,6,10
+159,GP,M,16,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,mother,30 min. to 1 hour,<2 hours,0,no,no,no,no,no,yes,no,no,2,2,1,2,3,2,15
+160,GP,M,16,Urban,Greater than 3,secondary education,secondary education,services,course,father,<15 min.,2 to 5 hours,1,no,yes,yes,no,yes,yes,yes,yes,5,5,4,4,5,4,12
+161,GP,M,17,Rural,Less than or equal to 3,5th to 9th grade,primary education (4th grade),other,course,mother,15 to 30 min.,<2 hours,2,no,no,no,yes,yes,no,yes,yes,3,2,2,2,5,0,0
+162,GP,M,15,Rural,Greater than 3,secondary education,5th to 9th grade,other,course,mother,15 to 30 min.,2 to 5 hours,2,yes,yes,no,no,yes,yes,yes,yes,4,4,1,4,3,6,7
+163,GP,M,16,Urban,Less than or equal to 3,primary education (4th grade),5th to 9th grade,other,course,mother,15 to 30 min.,<2 hours,1,no,no,no,yes,yes,yes,no,no,4,4,2,4,5,0,0
+164,GP,M,17,Urban,Greater than 3,primary education (4th grade),secondary education,services,course,father,<15 min.,<2 hours,0,no,no,no,no,yes,no,yes,no,3,3,1,4,2,2,10
+165,GP,M,17,Rural,Less than or equal to 3,primary education (4th grade),primary education (4th grade),services,course,mother,>1 hour,2 to 5 hours,3,no,no,no,yes,yes,no,no,yes,3,5,1,5,5,0,7
+166,GP,M,16,Urban,Greater than 3,secondary education,5th to 9th grade,services,course,mother,15 to 30 min.,<2 hours,1,no,yes,no,yes,no,no,no,no,5,2,1,1,2,16,12
+167,GP,M,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,father,<15 min.,2 to 5 hours,0,no,no,no,no,yes,no,yes,no,3,5,2,4,4,4,10
+168,GP,F,16,Urban,Greater than 3,higher education,5th to 9th grade,services,home,father,<15 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,yes,2,3,1,1,3,0,16
+169,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,1,5,1,1,4,0,0
+170,GP,F,16,Urban,Greater than 3,higher education,higher education,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,4,2,1,1,3,0,14
+171,GP,M,16,Urban,Greater than 3,secondary education,higher education,other,course,father,30 min. to 1 hour,<2 hours,2,no,yes,no,yes,no,yes,yes,no,4,5,2,4,2,0,0
+172,GP,M,16,Urban,Greater than 3,primary education (4th grade),none,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,3,2,1,1,3,2,16
+173,GP,M,17,Urban,Less than or equal to 3,higher education,higher education,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,4,1,3,5,0,10
+174,GP,F,16,Urban,Greater than 3,primary education (4th grade),secondary education,services,home,mother,<15 min.,2 to 5 hours,3,no,no,no,yes,no,yes,yes,yes,3,5,1,1,3,0,0
+175,GP,F,16,Urban,Less than or equal to 3,secondary education,secondary education,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,5,1,1,4,4,9
+176,GP,M,17,Urban,Less than or equal to 3,higher education,secondary education,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,4,4,4,4,4,4,9
+177,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,no,4,4,1,4,5,2,11
+178,GP,M,17,Urban,Greater than 3,secondary education,secondary education,other,reputation,father,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,no,3,4,1,4,4,4,6
+179,GP,M,16,Rural,Greater than 3,higher education,5th to 9th grade,services,other,mother,<15 min.,<2 hours,0,no,yes,no,yes,yes,yes,yes,yes,3,3,3,4,3,10,9
+180,GP,M,17,Urban,Greater than 3,higher education,secondary education,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,2,3,1,1,2,4,11
+181,GP,M,16,Urban,Greater than 3,higher education,secondary education,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,3,2,3,3,10,8
+182,GP,M,16,Urban,Greater than 3,secondary education,secondary education,other,home,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,2,3,1,2,3,2,12
+183,GP,F,17,Urban,Greater than 3,5th to 9th grade,higher education,services,reputation,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,4,2,2,3,5,0,17
+184,GP,F,17,Urban,Less than or equal to 3,secondary education,secondary education,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,3,3,2,3,1,56,8
+185,GP,F,16,Urban,Greater than 3,secondary education,5th to 9th grade,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,2,2,1,2,1,14,12
+186,GP,M,17,Urban,Greater than 3,secondary education,secondary education,services,other,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,3,4,2,3,4,12,11
+187,GP,M,16,Urban,Greater than 3,primary education (4th grade),5th to 9th grade,services,other,mother,<15 min.,<2 hours,0,no,yes,yes,yes,yes,yes,yes,yes,3,3,1,2,3,2,11
+188,GP,M,16,Urban,Less than or equal to 3,5th to 9th grade,primary education (4th grade),other,course,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,2,3,1,2,5,0,15
+189,GP,F,17,Urban,Greater than 3,secondary education,secondary education,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,no,yes,yes,yes,3,3,1,3,3,6,9
+190,GP,M,17,Rural,Greater than 3,primary education (4th grade),5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,no,no,1,3,1,5,3,4,10
+191,GP,F,16,Urban,Greater than 3,5th to 9th grade,secondary education,services,course,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,yes,no,3,3,1,1,2,10,13
+192,GP,F,17,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),services,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,3,3,1,1,3,0,9
+193,GP,M,17,Urban,Greater than 3,primary education (4th grade),5th to 9th grade,services,other,other,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,no,4,4,4,5,5,12,8
+194,GP,M,16,Rural,Greater than 3,secondary education,secondary education,services,reputation,mother,<15 min.,<2 hours,0,no,yes,no,yes,yes,yes,yes,no,3,2,3,4,5,8,10
+195,GP,M,16,Urban,Greater than 3,5th to 9th grade,secondary education,other,home,father,15 to 30 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,3,3,1,1,3,0,14
+196,GP,F,17,Urban,Less than or equal to 3,5th to 9th grade,higher education,services,course,father,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,3,2,1,1,5,0,15
+197,GP,M,17,Urban,Greater than 3,higher education,higher education,teacher,home,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,2,3,1,2,5,4,16
+198,GP,M,16,Rural,Less than or equal to 3,secondary education,secondary education,other,home,father,30 min. to 1 hour,<2 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,4,3,5,3,8,10
+199,GP,F,17,Urban,Greater than 3,higher education,higher education,teacher,home,mother,15 to 30 min.,<2 hours,1,no,yes,no,no,yes,yes,yes,no,2,4,2,3,2,24,18
+200,GP,F,16,Urban,Less than or equal to 3,higher education,higher education,teacher,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,5,2,1,2,3,0,10
+201,GP,F,16,Urban,Greater than 3,higher education,secondary education,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,3,5,1,5,2,2,16
+202,GP,F,16,Urban,Greater than 3,5th to 9th grade,secondary education,other,reputation,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,no,no,4,3,1,3,4,6,10
+203,GP,F,17,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,no,no,4,4,1,3,1,4,10
+204,GP,F,17,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,<15 min.,<2 hours,0,no,yes,no,no,yes,yes,yes,no,3,2,1,2,3,18,6
+205,GP,F,16,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,services,reputation,mother,15 to 30 min.,>10 hours,0,no,yes,yes,yes,no,yes,yes,no,3,5,1,1,5,6,11
+206,GP,F,17,Urban,Greater than 3,secondary education,higher education,services,home,mother,<15 min.,5 to 10 hours,1,no,yes,yes,no,yes,yes,yes,yes,4,3,3,4,5,28,9
+207,GP,F,16,Urban,Greater than 3,secondary education,primary education (4th grade),other,course,mother,<15 min.,2 to 5 hours,3,no,yes,yes,no,yes,yes,yes,no,3,3,2,2,4,5,7
+208,GP,F,16,Urban,Greater than 3,higher education,secondary education,other,other,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,3,2,1,1,1,10,13
+209,GP,F,16,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,home,mother,15 to 30 min.,<2 hours,0,no,yes,yes,no,yes,yes,no,no,3,2,1,4,5,6,10
+210,GP,F,17,Rural,Greater than 3,higher education,secondary education,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,4,2,1,1,4,6,7
+211,GP,F,19,Urban,Greater than 3,secondary education,secondary education,other,reputation,other,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,3,1,2,3,10,8
+212,GP,M,17,Urban,Less than or equal to 3,higher education,higher education,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,3,5,4,5,3,13,13
+213,GP,F,16,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,reputation,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,no,3,4,1,1,4,0,14
+214,GP,M,18,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,1,no,yes,yes,yes,yes,yes,yes,no,4,4,2,4,5,15,8
+215,GP,F,17,Rural,Less than or equal to 3,higher education,higher education,other,other,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,no,no,2,1,1,2,3,12,10
+216,GP,F,17,Urban,Less than or equal to 3,secondary education,5th to 9th grade,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,no,4,4,1,3,1,2,15
+217,GP,F,17,Urban,Greater than 3,higher education,secondary education,other,reputation,mother,<15 min.,2 to 5 hours,2,no,no,yes,no,yes,yes,yes,yes,4,5,2,4,1,22,4
+218,GP,M,18,Urban,Less than or equal to 3,secondary education,secondary education,health,home,father,<15 min.,2 to 5 hours,1,no,yes,yes,no,yes,yes,yes,no,2,4,2,4,4,13,8
+219,GP,F,17,Urban,Greater than 3,5th to 9th grade,secondary education,other,home,father,15 to 30 min.,<2 hours,0,no,yes,yes,no,yes,yes,no,no,3,3,1,4,3,3,8
+220,GP,F,17,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,at_home,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,3,1,1,4,4,10
+221,GP,F,17,Rural,Greater than 3,5th to 9th grade,primary education (4th grade),services,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,2,5,1,2,5,2,6
+222,GP,F,17,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,reputation,mother,<15 min.,5 to 10 hours,1,no,yes,no,yes,yes,yes,no,yes,3,4,1,1,5,0,0
+223,GP,F,16,Urban,Greater than 3,5th to 9th grade,secondary education,teacher,other,mother,<15 min.,2 to 5 hours,0,yes,no,no,no,yes,yes,yes,no,3,1,1,1,3,2,17
+224,GP,M,18,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,5,5,4,0,13
+225,GP,F,16,Urban,Greater than 3,higher education,higher education,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,no,yes,yes,no,3,2,1,1,5,0,14
+226,GP,F,18,Rural,Greater than 3,secondary education,primary education (4th grade),other,reputation,mother,<15 min.,2 to 5 hours,1,no,no,no,yes,yes,yes,yes,yes,3,3,1,1,4,16,7
+227,GP,F,17,Urban,Greater than 3,secondary education,5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,no,3,4,1,3,3,10,15
+228,GP,M,17,Urban,Less than or equal to 3,5th to 9th grade,secondary education,services,reputation,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,3,3,1,3,3,2,12
+229,GP,M,18,Urban,Less than or equal to 3,5th to 9th grade,primary education (4th grade),other,course,mother,>1 hour,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,yes,yes,3,2,4,5,3,14,9
+230,GP,F,17,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,mother,15 to 30 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,yes,yes,2,3,1,2,3,10,12
+231,GP,F,17,Urban,Less than or equal to 3,higher education,secondary education,other,reputation,father,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,2,3,1,2,3,14,14
+232,GP,M,17,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,father,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,5,2,1,1,1,4,11
+233,GP,M,17,Urban,Greater than 3,higher education,higher education,teacher,reputation,mother,<15 min.,2 to 5 hours,0,yes,yes,no,yes,yes,yes,yes,yes,5,5,1,3,2,14,9
+234,GP,M,16,Urban,Greater than 3,higher education,higher education,other,reputation,father,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,2,4,2,4,1,2,13
+235,GP,M,16,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,4,2,1,1,5,18,6
+236,GP,M,16,Urban,Greater than 3,secondary education,5th to 9th grade,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,yes,yes,3,3,1,3,2,10,10
+237,GP,M,17,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,home,father,<15 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,yes,4,2,5,5,4,4,13
+238,GP,F,16,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,home,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,yes,5,2,1,1,5,20,12
+239,GP,F,17,Rural,Greater than 3,5th to 9th grade,primary education (4th grade),services,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,no,no,yes,yes,yes,no,no,1,1,1,1,3,2,11
+240,GP,M,18,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,services,reputation,father,<15 min.,2 to 5 hours,1,no,no,no,no,yes,no,yes,no,5,4,3,5,2,0,0
+241,GP,M,17,Urban,Less than or equal to 3,higher education,secondary education,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,5,5,1,4,5,14,12
+242,GP,M,17,Rural,Less than or equal to 3,higher education,higher education,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,2,3,4,2,12
+243,GP,M,16,Urban,Less than or equal to 3,higher education,secondary education,other,course,mother,<15 min.,<2 hours,0,no,no,no,yes,no,yes,yes,no,4,5,1,1,3,0,0
+244,GP,M,16,Urban,Greater than 3,higher education,higher education,services,course,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,3,2,1,2,5,0,12
+245,GP,F,18,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,other,15 to 30 min.,5 to 10 hours,0,no,yes,yes,no,no,yes,yes,yes,4,4,1,1,3,0,0
+246,GP,M,16,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,mother,30 min. to 1 hour,<2 hours,0,no,no,no,no,yes,yes,yes,no,3,3,1,1,4,6,18
+247,GP,M,17,Urban,Greater than 3,5th to 9th grade,secondary education,other,course,father,15 to 30 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,2,2,1,1,2,4,13
+248,GP,M,22,Urban,Greater than 3,secondary education,primary education (4th grade),services,other,mother,<15 min.,<2 hours,3,no,no,no,no,no,no,yes,yes,4,5,5,5,1,16,8
+249,GP,M,18,Rural,Less than or equal to 3,secondary education,secondary education,services,course,mother,<15 min.,2 to 5 hours,1,no,yes,no,no,yes,yes,yes,yes,3,3,1,3,5,8,5
+250,GP,M,16,Urban,Greater than 3,none,5th to 9th grade,other,other,mother,<15 min.,<2 hours,0,no,no,yes,no,no,yes,yes,no,3,2,2,4,5,0,15
+251,GP,M,18,Urban,Greater than 3,secondary education,5th to 9th grade,other,course,mother,15 to 30 min.,<2 hours,1,no,no,no,no,yes,no,yes,no,4,5,2,4,5,0,8
+252,GP,M,16,Urban,Greater than 3,secondary education,secondary education,other,reputation,other,30 min. to 1 hour,2 to 5 hours,0,yes,yes,no,no,no,yes,yes,no,3,3,1,3,2,6,10
+253,GP,M,18,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),services,other,mother,<15 min.,<2 hours,1,no,no,no,no,no,no,yes,no,2,5,2,5,5,4,8
+254,GP,M,16,Rural,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,mother,15 to 30 min.,<2 hours,0,no,no,no,yes,no,yes,no,no,3,2,1,3,3,0,8
+255,GP,M,17,Rural,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,mother,<15 min.,<2 hours,0,no,no,no,no,no,yes,yes,no,4,2,2,4,5,0,12
+256,GP,M,17,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,course,mother,15 to 30 min.,<2 hours,1,no,yes,no,yes,yes,yes,yes,no,4,4,1,2,5,2,8
+257,GP,F,17,Urban,Less than or equal to 3,higher education,5th to 9th grade,services,reputation,mother,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,no,2,3,1,1,4,6,13
+258,GP,M,19,Urban,Less than or equal to 3,higher education,secondary education,at_home,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,3,1,1,1,1,12,11
+259,GP,M,18,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,2,4,1,2,4,8,14
+260,GP,F,17,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,services,course,father,<15 min.,>10 hours,0,no,no,yes,yes,yes,yes,yes,yes,4,1,1,1,2,0,0
+261,GP,F,18,Urban,Greater than 3,higher education,secondary education,other,home,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,1,2,1,3,2,21,18
+262,GP,M,18,Urban,Greater than 3,higher education,secondary education,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,3,2,1,1,3,2,8
+263,GP,M,18,Rural,Greater than 3,secondary education,5th to 9th grade,other,course,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,no,yes,no,no,3,2,1,1,3,1,12
+264,GP,F,17,Urban,Greater than 3,secondary education,secondary education,other,home,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,no,yes,no,no,2,3,1,1,4,4,9
+265,GP,F,18,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,3,3,1,1,3,0,0
+266,GP,M,18,Rural,Less than or equal to 3,secondary education,higher education,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,2,5,3,4,1,13,17
+267,GP,M,17,Urban,Greater than 3,secondary education,primary education (4th grade),other,other,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,4,4,3,4,5,2,10
+268,GP,F,18,Rural,Greater than 3,higher education,higher education,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,3,4,2,2,4,8,11
+269,GP,M,18,Urban,Greater than 3,higher education,5th to 9th grade,other,reputation,father,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,4,5,1,3,5,10,10
+270,GP,F,18,Rural,Greater than 3,5th to 9th grade,primary education (4th grade),other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,no,yes,no,yes,yes,3,5,1,2,3,0,0
+271,GP,F,19,Urban,Greater than 3,secondary education,secondary education,services,home,other,<15 min.,2 to 5 hours,2,no,yes,yes,yes,yes,yes,yes,no,3,5,3,3,5,15,9
+272,GP,F,18,Urban,Greater than 3,5th to 9th grade,secondary education,services,reputation,father,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,5,5,1,3,2,4,14
+273,GP,F,18,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,no,no,4,3,1,1,3,2,11
+274,GP,M,17,Rural,Greater than 3,primary education (4th grade),5th to 9th grade,at_home,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,no,yes,no,yes,5,2,2,2,1,2,14
+275,GP,F,17,Urban,Greater than 3,5th to 9th grade,higher education,health,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,3,3,1,1,1,2,10
+276,GP,F,17,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,course,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,yes,4,4,2,3,5,6,12
+277,GP,F,18,Rural,Greater than 3,secondary education,5th to 9th grade,services,home,mother,15 to 30 min.,2 to 5 hours,0,no,no,no,no,no,no,yes,yes,1,1,1,1,5,75,9
+278,GP,M,18,Urban,Greater than 3,higher education,higher education,services,home,mother,15 to 30 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,2,4,1,4,3,22,9
+279,GP,F,18,Urban,Greater than 3,higher education,higher education,health,reputation,father,<15 min.,2 to 5 hours,1,yes,yes,no,yes,yes,yes,yes,yes,4,4,1,1,4,15,8
+280,GP,M,18,Urban,Less than or equal to 3,higher education,secondary education,services,course,mother,15 to 30 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,2,3,1,2,1,8,10
+281,GP,M,17,Urban,Less than or equal to 3,higher education,primary education (4th grade),other,home,mother,15 to 30 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,yes,5,4,2,4,5,30,8
+282,GP,M,17,Urban,Less than or equal to 3,secondary education,5th to 9th grade,services,home,mother,<15 min.,<2 hours,1,no,no,no,no,yes,yes,yes,no,4,4,3,4,3,19,10
+283,GP,F,18,Rural,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,reputation,mother,15 to 30 min.,>10 hours,0,no,yes,yes,yes,yes,yes,no,no,2,2,1,1,3,1,12
+284,GP,F,18,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,home,mother,15 to 30 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,no,4,4,1,1,4,4,10
+285,GP,F,17,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,no,yes,yes,no,4,5,1,2,5,4,11
+286,GP,M,17,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),other,reputation,father,<15 min.,2 to 5 hours,0,no,no,yes,no,no,yes,yes,no,3,3,1,2,4,2,11
+287,GP,F,18,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,at_home,other,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,1,2,2,5,19
+288,GP,F,17,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),teacher,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,1,1,3,6,12
+289,GP,M,18,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),services,reputation,mother,<15 min.,5 to 10 hours,0,no,no,yes,yes,yes,yes,yes,no,2,4,1,3,2,6,14
+290,GP,M,18,Urban,Less than or equal to 3,higher education,higher education,teacher,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,3,1,1,2,9,15
+291,GP,M,18,Urban,Greater than 3,higher education,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,3,2,1,4,5,11,11
+292,GP,F,17,Urban,Greater than 3,higher education,secondary education,services,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,2,2,1,2,3,0,15
+293,GP,F,18,Urban,Less than or equal to 3,5th to 9th grade,primary education (4th grade),at_home,reputation,mother,<15 min.,2 to 5 hours,1,no,no,no,no,yes,yes,yes,yes,4,3,1,1,5,12,13
+294,GP,F,17,Rural,Less than or equal to 3,secondary education,primary education (4th grade),other,reputation,mother,15 to 30 min.,>10 hours,0,no,yes,yes,no,yes,yes,no,no,1,2,1,1,3,6,18
+295,GP,M,18,Rural,Less than or equal to 3,secondary education,5th to 9th grade,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,2,1,1,4,8,14
+296,GP,M,17,Urban,Greater than 3,secondary education,secondary education,other,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,no,4,3,1,3,5,4,11
+297,GP,F,19,Urban,Greater than 3,higher education,higher education,other,reputation,other,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,4,2,3,2,0,0
+298,GP,F,18,Urban,Less than or equal to 3,higher education,secondary education,other,home,other,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,4,5,1,2,2,10,8
+299,GP,F,18,Urban,Greater than 3,higher education,secondary education,other,reputation,father,<15 min.,>10 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,1,1,3,0,14
+300,GP,M,18,Urban,Less than or equal to 3,higher education,higher education,teacher,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,yes,4,2,2,2,1,5,16
+301,GP,F,18,Urban,Less than or equal to 3,higher education,higher education,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,yes,2,4,1,1,4,14,11
+302,GP,M,17,Urban,Less than or equal to 3,higher education,higher education,teacher,home,father,15 to 30 min.,<2 hours,0,no,no,yes,no,yes,yes,yes,no,1,1,2,2,5,0,10
+303,GP,F,17,Urban,Greater than 3,higher education,5th to 9th grade,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,1,1,3,0,14
+304,GP,F,17,Urban,Greater than 3,secondary education,5th to 9th grade,health,reputation,father,<15 min.,>10 hours,0,no,yes,yes,yes,no,yes,yes,no,2,2,1,2,5,0,18
+305,GP,M,19,Urban,Greater than 3,secondary education,secondary education,other,home,other,<15 min.,2 to 5 hours,1,no,yes,no,yes,yes,yes,yes,yes,4,4,1,1,3,20,13
+306,GP,F,18,Urban,Greater than 3,5th to 9th grade,higher education,at_home,reputation,other,<15 min.,2 to 5 hours,1,no,yes,yes,yes,yes,yes,yes,no,4,3,1,1,3,8,12
+307,GP,M,20,Urban,Greater than 3,secondary education,5th to 9th grade,other,course,other,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,no,no,5,3,1,1,5,0,18
+308,GP,M,19,Urban,Greater than 3,higher education,higher education,services,reputation,other,15 to 30 min.,<2 hours,1,no,yes,yes,no,yes,yes,yes,yes,3,4,1,1,4,38,8
+309,GP,M,19,Rural,Greater than 3,secondary education,secondary education,services,reputation,father,<15 min.,2 to 5 hours,1,no,no,no,yes,yes,yes,no,yes,5,3,1,2,5,0,12
+310,GP,F,19,Urban,Less than or equal to 3,primary education (4th grade),primary education (4th grade),other,reputation,other,<15 min.,2 to 5 hours,1,yes,yes,no,yes,no,yes,yes,no,4,3,1,3,3,18,10
+311,GP,F,19,Urban,Less than or equal to 3,primary education (4th grade),5th to 9th grade,services,home,other,<15 min.,2 to 5 hours,1,no,no,no,yes,no,yes,no,yes,2,4,2,2,3,0,0
+312,GP,F,19,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,other,other,30 min. to 1 hour,2 to 5 hours,0,no,yes,no,no,yes,no,yes,yes,4,1,1,1,2,20,13
+313,GP,M,19,Urban,Greater than 3,primary education (4th grade),5th to 9th grade,services,course,other,<15 min.,2 to 5 hours,1,no,no,no,no,no,yes,yes,no,5,2,2,2,4,3,11
+314,GP,F,19,Urban,Less than or equal to 3,secondary education,5th to 9th grade,other,reputation,other,15 to 30 min.,2 to 5 hours,1,no,yes,yes,no,no,yes,yes,yes,2,2,1,2,1,22,11
+315,GP,F,19,Urban,Greater than 3,primary education (4th grade),primary education (4th grade),health,home,other,<15 min.,5 to 10 hours,2,no,no,no,no,no,yes,yes,yes,1,2,1,1,3,14,13
+316,GP,F,19,Rural,Greater than 3,5th to 9th grade,secondary education,other,reputation,other,<15 min.,5 to 10 hours,1,no,no,no,no,yes,yes,yes,yes,1,2,1,1,3,40,11
+317,GP,F,18,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,3,1,2,1,0,0
+318,GP,F,18,Urban,Greater than 3,higher education,secondary education,other,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,3,4,1,1,5,9,9
+319,GP,F,17,Rural,Greater than 3,secondary education,higher education,services,course,father,<15 min.,5 to 10 hours,0,no,yes,yes,yes,no,yes,yes,no,3,4,2,5,5,0,10
+320,GP,F,18,Urban,Greater than 3,higher education,higher education,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,4,4,3,3,5,2,11
+321,GP,F,17,Urban,Greater than 3,higher education,secondary education,services,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,2,2,1,2,5,23,13
+322,GP,F,17,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,yes,2,2,1,1,3,12,9
+323,GP,F,17,Rural,Less than or equal to 3,5th to 9th grade,5th to 9th grade,services,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,3,2,2,2,3,3,11
+324,GP,F,17,Urban,Greater than 3,secondary education,primary education (4th grade),services,course,father,<15 min.,5 to 10 hours,0,no,yes,no,no,no,yes,yes,no,4,3,2,3,5,1,15
+325,GP,F,17,Urban,Less than or equal to 3,none,5th to 9th grade,at_home,home,father,15 to 30 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,3,3,2,3,2,0,15
+326,GP,M,18,Urban,Greater than 3,higher education,higher education,other,course,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,yes,no,3,3,2,2,3,3,11
+327,GP,M,17,Urban,Greater than 3,secondary education,secondary education,services,reputation,mother,<15 min.,<2 hours,0,no,no,no,yes,no,yes,yes,no,3,5,3,5,5,3,16
+328,GP,M,17,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,mother,>1 hour,<2 hours,0,no,yes,no,no,yes,yes,yes,no,4,5,5,5,4,8,10
+329,GP,F,17,Urban,Greater than 3,higher education,higher education,services,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,4,4,1,3,4,7,9
+330,GP,F,17,Urban,Greater than 3,higher education,higher education,teacher,course,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,no,no,yes,yes,yes,3,3,1,2,4,4,14
+331,GP,M,18,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,course,mother,<15 min.,>10 hours,0,no,yes,no,yes,yes,yes,yes,no,5,5,2,4,5,2,8
+332,GP,F,17,Rural,Greater than 3,5th to 9th grade,higher education,other,course,father,<15 min.,5 to 10 hours,0,no,yes,no,no,yes,yes,yes,yes,4,3,1,1,5,7,14
+333,GP,F,18,Urban,Greater than 3,secondary education,secondary education,services,home,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,3,4,1,1,4,0,0
+334,GP,F,18,Urban,Less than or equal to 3,5th to 9th grade,5th to 9th grade,other,home,other,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,yes,3,3,1,1,2,0,0
+335,GP,F,18,Rural,Greater than 3,5th to 9th grade,5th to 9th grade,other,course,mother,15 to 30 min.,>10 hours,0,no,no,no,yes,yes,yes,no,no,4,4,1,1,4,0,0
+336,GP,F,17,Urban,Greater than 3,secondary education,higher education,other,course,mother,<15 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,4,5,1,3,5,16,15
+337,GP,F,19,Rural,Greater than 3,secondary education,primary education (4th grade),at_home,home,other,<15 min.,5 to 10 hours,1,no,no,yes,no,yes,yes,no,no,4,3,1,2,5,12,13
+338,GP,F,17,Urban,Greater than 3,secondary education,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,3,2,2,3,2,0,0
+339,GP,F,18,Urban,Less than or equal to 3,secondary education,secondary education,services,home,mother,<15 min.,>10 hours,0,no,yes,no,no,yes,yes,yes,no,3,3,1,1,1,7,17
+340,GP,F,17,Rural,Greater than 3,secondary education,5th to 9th grade,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,3,3,2,3,2,4,10
+341,GP,F,19,Urban,Greater than 3,5th to 9th grade,primary education (4th grade),services,home,other,<15 min.,5 to 10 hours,1,no,no,yes,yes,yes,yes,yes,yes,3,4,1,3,3,4,11
+342,GP,M,18,Urban,Greater than 3,higher education,higher education,services,home,father,<15 min.,2 to 5 hours,1,no,yes,no,yes,yes,yes,yes,no,3,3,2,2,2,0,0
+343,GP,M,18,Urban,Less than or equal to 3,secondary education,higher education,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,3,3,1,3,5,11,15
+344,GP,F,17,Urban,Greater than 3,5th to 9th grade,5th to 9th grade,at_home,home,father,<15 min.,2 to 5 hours,1,no,yes,no,no,yes,yes,yes,yes,3,1,1,2,4,0,0
+345,GP,F,18,Urban,Greater than 3,5th to 9th grade,secondary education,other,course,mother,<15 min.,5 to 10 hours,0,no,yes,no,no,yes,yes,yes,no,3,3,1,2,3,4,10
+346,GP,F,18,Urban,Greater than 3,secondary education,5th to 9th grade,services,other,mother,<15 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,yes,4,3,2,3,1,7,14
+347,GP,M,18,Rural,Greater than 3,higher education,secondary education,services,course,mother,<15 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,yes,3,2,1,2,4,9,16
+348,GP,M,18,Urban,Greater than 3,higher education,secondary education,other,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,yes,4,5,2,3,5,0,9
+349,GP,F,17,Urban,Greater than 3,higher education,secondary education,other,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,4,3,1,3,4,0,15
