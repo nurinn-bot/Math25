@@ -69,3 +69,22 @@ fig1.update_layout(
 )
 
 st.plotly_chart(fig1, use_container_width=True)
+
+# Boxplot: Study Time by Sex
+fig2 = px.box(
+    GP_df,
+    x='sex',
+    y='study_time',
+    color='sex',
+    title='Study Time Distribution by Sex (GP School)',
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+
+fig2.update_layout(
+    xaxis_title='Sex',
+    yaxis_title='Study Time',
+    boxmode='group',
+    margin=dict(l=20, r=20, t=60, b=60)
+)
+
+st.plotly_chart(fig2, use_container_width=True)
