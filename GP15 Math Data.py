@@ -23,6 +23,15 @@ col4.metric(label="PLO 5", value=f"4.3", help="PLO 5: Communication Skill", bord
 # Consider using @st.cache_data for improved performance in a real Streamlit app
 GP_df = pd.read_csv(url)
 
+# Calculate the counts and reset the index to create a Plotly-friendly DataFrame
+# Assumes the loaded CSV has a column named 'sex'
+sex_counts_df = GP_df['sex'].value_counts().reset_index()
+sex_counts_df.columns = ['sex', 'Count']
+
+st.write("Data summary (Counts):")
+st.dataframe(sex_counts_df, hide_index=True)
+
+
 # Count the occurrences of each sex
 sex_counts = GP_df['sex'].value_counts().reset_index()
 sex_counts.columns = ['Sex', 'Count']
