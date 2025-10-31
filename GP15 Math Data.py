@@ -22,3 +22,22 @@ col4.metric(label="PLO 5", value=f"4.3", help="PLO 5: Communication Skill", bord
 # Load data from the remote CSV file
 # Consider using @st.cache_data for improved performance in a real Streamlit app
 GP_df = pd.read_csv(url)
+
+# Count the occurrences of each sex
+sex_counts = GP_df['sex'].value_counts().reset_index()
+sex_counts.columns = ['Sex', 'Count']
+
+# Create a pie chart using Plotly
+fig = px.pie(
+    sex_counts,
+    names='Sex',
+    values='Count',
+    title='Distribution of Sex',
+    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft color palette
+)
+
+# Optional: show labels and percentages directly on slices
+fig.update_traces(textinfo='percent+label', pull=[0.05]*len(sex_counts))
+
+# Display the chart in Streamlit
+st.plotly_chart(fig, use_container_width=True)
