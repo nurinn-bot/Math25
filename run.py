@@ -1,86 +1,15 @@
 import streamlit as st
-import pandas as pd
-import plotly.express as px
-
-# --- Streamlit Configuration ---
 st.set_page_config(
-    page_title="School GP15 Math",
-    layout="wide"
+    page_title="GP School Math Data"
 )
+visualise = st.Page('GP15 Math Data.py', title='Student Data', icon=":material/school:")
 
-st.header("GP15 Data Analysis and Visualization 📊", divider="blue")
+home = st.Page('home.py', title='Homepage', default=True, icon=":material/home:")
 
-# ######################################################################
-# --- 1. DATA LOADING FROM URL (Replaced Dummy Data) ---
-url = 'https://raw.githubusercontent.com/nurinn-bot/Math25/refs/heads/main/student_math_clean%20(1).csv'
-col1, col2, col3, col4 = st.columns(4)
-    
-col1.metric(label="PLO 2", value=f"3.3", help="PLO 2: Cognitive Skill", border=True)
-col2.metric(label="PLO 3", value=f"3.5", help="PLO 3: Digital Skill", border=True)
-col3.metric(label="PLO 4", value=f"4.0", help="PLO 4: Interpersonal Skill", border=True)
-col4.metric(label="PLO 5", value=f"4.3", help="PLO 5: Communication Skill", border=True)
-# Load data from the remote CSV file
-# Consider using @st.cache_data for improved performance in a real Streamlit app
-GP_df = pd.read_csv(url)
+pg = st.navigation(
+        {
+            "Menu": [home, visualise]
+        }
+    )
 
-# Count the occurrences of each sex
-sex_counts = GP_df['sex'].value_counts().reset_index()
-sex_counts.columns = ['Sex', 'Count']
-
-# Create a pie chart using Plotly
-fig = px.pie(
-    sex_counts,
-    names='Sex',
-    values='Count',
-    title='Distribution of Sex',
-    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft color palette
-)
-
-# Optional: show labels and percentages directly on slices
-fig.update_traces(textinfo='percent+label', pull=[0.05]*len(sex_counts))
-
-# Display the chart in Streamlit
-st.plotly_chart(fig, use_container_width=True)
-
-# Boxplot: Final Grade by Sex
-fig1 = px.box(
-    GP_df,
-    x='sex',
-    y='final_grade',
-    color='sex',
-    title='Final Grade Distribution by Sex',
-    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft colors
-)
-
-fig1.update_layout(
-    xaxis_title='Sex',
-    yaxis_title='Final Grade',
-    boxmode='group',
-    margin=dict(l=20, r=20, t=60, b=60)
-)
-
-# Display in Streamlit
-st.plotly_chart(fig, use_container_width=True)
-st.plotly_chart(fig1, use_container_width=True)
-
-# Boxplot: Study Time by Sex
-fig2 = px.box(
-    GP_df,
-    x='sex',
-    y='study_time',
-    color='sex',
-    title='Study Time Distribution by Sex (GP School)',
-    color_discrete_sequence=px.colors.qualitative.Pastel
-)
-
-fig2.update_layout(
-    xaxis_title='Sex',
-    yaxis_title='Study Time',
-    boxmode='group',
-    margin=dict(l=20, r=20, t=60, b=60)
-)
-
-st.plotly_chart(fig2, use_container_width=True)
-
-# Display in Streamlit
-st.plotly_chart(fig, use_container_width=True)
+pg.run()
