@@ -6,9 +6,11 @@ visualise = st.Page('GP15 Math Data.py', title='Student Data', icon=":material/s
 
 home = st.Page('home.py', title='GP15 Student Gender Data', default=True, icon=":material/home:")
 
+analysis = st.Page("analysis.py", title="Analysis", icon="📈")
+
 pg = st.navigation(
         {
-            "Menu": [home, visualise]
+            "Menu": [home, visualise, analysis]
         }
     )
 
