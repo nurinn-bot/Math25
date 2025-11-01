@@ -85,13 +85,9 @@ fig2.update_layout(
 st.plotly_chart(fig2, use_container_width=True)
 
 # Add text below visualization
-st.write("### 📝 Observation:")
+st.write("### 📝 summary:")
 st.write(
     """
-    The chart above shows the proportion of students who **attend extra paid classes** 
-    compared to those who do not in the GP school dataset.
-
-    From the visualization, we can observe whether most students **opt for additional paid classes**
-    or prefer to **study independently** without external support.
+    These three visualizations reveal that the student population is demographically balanced (52.4% Female and 47.6% Male), but suggest a potential gender paradox in Mathematics performance and effort. The Final Grade distribution shows that Male students achieve a slightly higher median grade and exhibit a narrower interquartile range (less score variability) among the middle 50% of performers. Conversely, the Study Time distribution indicates that Female students report putting in more academic effort as evidenced by a visibly higher median study time category. This key finding—that higher self-reported effort among females does not translate to higher or equal median math scores compared to males—warrants further statistical investigation into potential mediating factors like confidence, teaching methodology, or specific socioeconomic variables
     """
 )
