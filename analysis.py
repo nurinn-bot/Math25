@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 
 # --- Streamlit Configuration ---
 st.set_page_config(
@@ -50,3 +51,25 @@ fig2 = px.pie(
 fig2.update_traces(textinfo='percent+label')
 st.plotly_chart(fig2, use_container_width=True)
 
+# Count values
+extra_paid_counts = GP_df['extra_paid_classes'].value_counts()
+
+# Create a donut chart using Plotly
+fig = go.Figure(
+    data=[go.Pie(
+        labels=extra_paid_counts.index,
+        values=extra_paid_counts.values,
+        hole=0.4,  # makes it a donut
+        textinfo='percent+label',
+        textfont=dict(size=14)
+    )]
+)
+
+# Update layout
+fig.update_layout(
+    title='Distribution of Extra Paid Classes (GP School)',
+    showlegend=True,
+)
+
+# Display in Streamlit
+st.plotly_chart(fig, use_container_width=True)
