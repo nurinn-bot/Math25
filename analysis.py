@@ -50,21 +50,3 @@ fig2 = px.pie(
 fig2.update_traces(textinfo='percent+label')
 st.plotly_chart(fig2, use_container_width=True)
 
-
-# --- 3️⃣ Distribution of Extra Paid Classes (Donut Chart) ---
-extra_paid_counts = GP_df['extra_paid_classes'].value_counts()
-
-fig3 = go.Figure(
-    data=[go.Pie(
-        labels=extra_paid_counts.index,
-        values=extra_paid_counts.values,
-        hole=0.4,  # makes it a donut
-        textinfo='percent+label'
-    )]
-)
-fig3.update_layout(
-    title='Distribution of Extra Paid Classes (GP School)',
-    showlegend=True
-)
-st.plotly_chart(fig3, use_container_width=True)
-
