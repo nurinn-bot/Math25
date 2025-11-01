@@ -31,7 +31,7 @@ st.dataframe(sex_counts_df, hide_index=True)
 sex_counts = GP_df['sex'].value_counts().reset_index()
 sex_counts.columns = ['Sex', 'Count']
 
-st.write("1. To compare the relationship between sex and their Study Time and Final Grade):")
+st.write("1. To compare the relationship between sex and their Study Time and Final Grade")
 # Create a pie chart using Plotly
 fig = px.pie(
     sex_counts,
