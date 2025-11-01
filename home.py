@@ -76,7 +76,7 @@ st.write(
     """
     This plot suggests a gender achievement gap in Mathematics that favors male students. Although both populations have identical lower boundaries, the male population is more consistent, particularly in the middle 50%, and reaches a higher average score. Further investigation with the use of inferential statistics should be done to establish whether this median difference is statistically significant or just a result of variability in sampling.
     """
-    
+)
 # Boxplot: Study Time by Sex
 fig2 = px.box(
     GP_df,
@@ -100,6 +100,7 @@ st.write(
     """
     Directly contributing to this paradox set by the final grades, it would appear that Females are putting more academic input and yet achieve lower median outcomes than Male. This would simply mean the relationship between the time put in studying and performance is not linear or is heavily moderated by other variables such as learning efficiency, subject confidence ( often lower for females in math).
     """
+)
 # Add text below visualization
 st.write("### 📝 summary:")
 st.write(
