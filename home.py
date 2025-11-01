@@ -83,3 +83,15 @@ fig2.update_layout(
 )
 
 st.plotly_chart(fig2, use_container_width=True)
+
+# Add text below visualization
+st.write("### 📝 Observation:")
+st.write(
+    """
+    The chart above shows the proportion of students who **attend extra paid classes** 
+    compared to those who do not in the GP school dataset.
+
+    From the visualization, we can observe whether most students **opt for additional paid classes**
+    or prefer to **study independently** without external support.
+    """
+)
