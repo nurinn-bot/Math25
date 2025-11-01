@@ -23,68 +23,69 @@ col4.metric(label="PLO 5", value=f"4.3", help="PLO 5: Communication Skill", bord
 # Consider using @st.cache_data for improved performance in a real Streamlit app
 GP_df = pd.read_csv(url)
 
-# Calculate the counts and reset the index to create a Plotly-friendly DataFrame
-# Assumes the loaded CSV has a column named 'sex'
-sex_counts_df = GP_df['sex'].value_counts().reset_index()
-sex_counts_df.columns = ['sex', 'Count']
+# Count address types
+address_counts = GP_df['address_type'].value_counts().reset_index()
+address_counts.columns = ['Address Type', 'Count']
 
-st.write("Data summary (Counts):")
-st.dataframe(sex_counts_df, hide_index=True)
-
-
-# Count the occurrences of each sex
-sex_counts = GP_df['sex'].value_counts().reset_index()
-sex_counts.columns = ['Sex', 'Count']
-
-# Create a pie chart using Plotly
-fig = px.pie(
-    sex_counts,
-    names='Sex',
-    values='Count',
-    title='Distribution of Sex',
-    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft color palette
+# Create bar chart
+fig1 = px.bar(
+    address_counts,
+    x='Address Type',
+    y='Count',
+    title='Distribution of Address Type',
+    text='Count',
+    color='Address Type',
+    color_discrete_sequence=px.colors.qualitative.Pastel
 )
 
-# Optional: show labels and percentages directly on slices
-fig.update_traces(textinfo='percent+label', pull=[0.05]*len(sex_counts))
-
-# Display the chart in Streamlit
-st.plotly_chart(fig, use_container_width=True)
-
-# Boxplot: Final Grade by Sex
-fig1 = px.box(
-    GP_df,
-    x='sex',
-    y='final_grade',
-    color='sex',
-    title='Final Grade Distribution by Sex',
-    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft colors
-)
-
+fig1.update_traces(textposition='outside')
 fig1.update_layout(
-    xaxis_title='Sex',
-    yaxis_title='Final Grade',
-    boxmode='group',
-    margin=dict(l=20, r=20, t=60, b=60)
+    xaxis_title='Address Type',
+    yaxis_title='Count',
+    uniformtext_minsize=8,
+    uniformtext_mode='hide'
 )
 
 st.plotly_chart(fig1, use_container_width=True)
 
-# Boxplot: Study Time by Sex
-fig2 = px.box(
-    GP_df,
-    x='sex',
-    y='study_time',
-    color='sex',
-    title='Study Time Distribution by Sex (GP School)',
+# Count school choice reasons
+school_choice_counts = GP_df['school_choice_reason'].value_counts().reset_index()
+school_choice_counts.columns = ['Reason', 'Count']
+
+# Create pie chart
+fig2 = px.pie(
+    school_choice_counts,
+    names='Reason',
+    values='Count',
+    title='Distribution of School Choice Reason (GP School)',
     color_discrete_sequence=px.colors.qualitative.Pastel
 )
 
-fig2.update_layout(
-    xaxis_title='Sex',
-    yaxis_title='Study Time',
-    boxmode='group',
-    margin=dict(l=20, r=20, t=60, b=60)
-)
+fig2.update_traces(textinfo='percent+label', pull=[0.05]*len(school_choice_counts))
 
 st.plotly_chart(fig2, use_container_width=True)
+
+# Count travel time occurrences
+travel_time_counts = GP_df['travel_time'].value_counts().sort_index().reset_index()
+travel_time_counts.columns = ['Travel Time', 'Count']
+
+# Create bar chart
+fig3 = px.bar(
+    travel_time_counts,
+    x='Travel Time',
+    y='Count',
+    title='Distribution of Travel Time (GP School)',
+    text='Count',
+    color='Travel Time',
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+
+fig3.update_traces(textposition='outside')
+fig3.update_layout(
+    xaxis_title='Travel Time',
+    yaxis_title='Count',
+    uniformtext_minsize=8,
+    uniformtext_mode='hide'
+)
+
+st.plotly_chart(fig3, use_container_width=True)
