@@ -10,7 +10,7 @@ page = st.Page('Parents.py', title='Students's Parents Data', default=True, icon
 
 pg = st.navigation(
         {
-            "Menu": [home, visualise]
+            "Menu": [home, visualise, page]
         }
     )
 
