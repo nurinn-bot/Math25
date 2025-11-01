@@ -1,31 +1,90 @@
 import streamlit as st
+import pandas as pd
+import plotly.express as px
 
-# Add a banner image at the top
-banner_image = 'https://raw.githubusercontent.com/fakhitah3/FHPK-TVET/main/3u1i.jpeg' 
-st.image(banner_image, use_container_width=True)
-
-# Add the main introduction paragraph
-st.write(
-    """
-    **Scientific Visualization** is a multidisciplinary field that focuses on transforming complex scientific data into visual forms that are easier to understand, interpret, and communicate. 
-    Through the use of computational techniques, visualization helps researchers explore datasets, identify hidden patterns, and gain insights that would otherwise remain obscure in numerical form.
-    """
+# --- Streamlit Configuration ---
+st.set_page_config(
+    page_title="School GP15 Math",
+    layout="wide"
 )
 
-banner_image = 'https://raw.githubusercontent.com/fakhitah3/FHPK-TVET/main/3u1i_2.jpeg' 
-st.image(banner_image, use_container_width=True)
+st.header("GP15 Data Analysis and Visualization 📊", divider="blue")
 
-# Add the extended explanation
-st.write(
-    """
-    The aim of scientific visualization is not merely to present data attractively, but to **enhance comprehension and decision-making** through visual analytics. 
-    Applications span across disciplines such as **climate science**, **medicine**, **engineering**, **data science**, and **environmental studies**.
-
-    In this course or module, students will learn to:
-    - Select relevant datasets for analysis and visualization.
-    - Apply various visualization techniques such as graphs, maps, and 3D models.
-    - Interpret visual outputs to support scientific conclusions and policy recommendations.
+# ######################################################################
+# --- 1. DATA LOADING FROM URL (Replaced Dummy Data) ---
+url = 'https://raw.githubusercontent.com/nurinn-bot/Math25/refs/heads/main/student_math_clean%20(1).csv'
+col1, col2, col3, col4 = st.columns(4)
     
-    By the end of this exercise, students should be able to produce **informative, accurate, and interactive visualizations** that effectively communicate scientific findings to both expert and non-expert audiences.
-    """
+col1.metric(label="PLO 2", value=f"3.3", help="PLO 2: Cognitive Skill", border=True)
+col2.metric(label="PLO 3", value=f"3.5", help="PLO 3: Digital Skill", border=True)
+col3.metric(label="PLO 4", value=f"4.0", help="PLO 4: Interpersonal Skill", border=True)
+col4.metric(label="PLO 5", value=f"4.3", help="PLO 5: Communication Skill", border=True)
+# Load data from the remote CSV file
+# Consider using @st.cache_data for improved performance in a real Streamlit app
+GP_df = pd.read_csv(url)
+
+# Calculate the counts and reset the index to create a Plotly-friendly DataFrame
+# Assumes the loaded CSV has a column named 'sex'
+sex_counts_df = GP_df['sex'].value_counts().reset_index()
+sex_counts_df.columns = ['sex', 'Count']
+
+st.write("Data summary (Counts):")
+st.dataframe(sex_counts_df, hide_index=True)
+
+
+# Count the occurrences of each sex
+sex_counts = GP_df['sex'].value_counts().reset_index()
+sex_counts.columns = ['Sex', 'Count']
+
+# Create a pie chart using Plotly
+fig = px.pie(
+    sex_counts,
+    names='Sex',
+    values='Count',
+    title='Distribution of Sex',
+    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft color palette
 )
+
+# Optional: show labels and percentages directly on slices
+fig.update_traces(textinfo='percent+label', pull=[0.05]*len(sex_counts))
+
+# Display the chart in Streamlit
+st.plotly_chart(fig, use_container_width=True)
+
+# Boxplot: Final Grade by Sex
+fig1 = px.box(
+    GP_df,
+    x='sex',
+    y='final_grade',
+    color='sex',
+    title='Final Grade Distribution by Sex',
+    color_discrete_sequence=px.colors.qualitative.Pastel  # optional: soft colors
+)
+
+fig1.update_layout(
+    xaxis_title='Sex',
+    yaxis_title='Final Grade',
+    boxmode='group',
+    margin=dict(l=20, r=20, t=60, b=60)
+)
+
+st.plotly_chart(fig1, use_container_width=True)
+
+# Boxplot: Study Time by Sex
+fig2 = px.box(
+    GP_df,
+    x='sex',
+    y='study_time',
+    color='sex',
+    title='Study Time Distribution by Sex (GP School)',
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+
+fig2.update_layout(
+    xaxis_title='Sex',
+    yaxis_title='Study Time',
+    boxmode='group',
+    margin=dict(l=20, r=20, t=60, b=60)
+)
+
+st.plotly_chart(fig2, use_container_width=True)
