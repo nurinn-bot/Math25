@@ -2,7 +2,17 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-st.title("📈 Analysis Page")
+# --- Streamlit Configuration ---
+st.set_page_config(
+    page_title="School GP15 Math",
+    layout="wide"
+)
+
+st.header("GP15 Data Analysis and Visualization 📊", divider="blue")
+
+# ######################################################################
+# --- 1. DATA LOADING FROM URL (Replaced Dummy Data) ---
+url = 'https://raw.githubusercontent.com/nurinn-bot/Math25/refs/heads/main/student_math_clean%20(1).csv'
 
 # --- 1️⃣ Distribution of Parental Education (Bar Chart) ---
 mother_education_counts = GP_df['mother_education'].value_counts().sort_index()
