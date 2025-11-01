@@ -27,6 +27,8 @@ GP_df = pd.read_csv(url)
 address_counts = GP_df['address_type'].value_counts().reset_index()
 address_counts.columns = ['Address Type', 'Count']
 
+st.write("1. To compare the relationship between sex and their Study Time and Final Grade):")
+
 # Create bar chart
 fig1 = px.bar(
     address_counts,
