@@ -96,4 +96,5 @@ st.write("### 📝 Summary")
 st.write(
     """
    These visualizations examining socioeconomic factors reveal that most students come from larger families but also benefit from significant academic investment and generally high parental educational capital. The Distribution of Family Size shows that a large majority of students (72.2%) come from families with more than three members (likely children), suggesting a high potential for resource dilution. However, this potential dilution is partially offset by high parental investment, as seen in the Distribution of Extra Paid Classes, where nearly half the students (46.1%) receive private tutoring. Crucially, the Distribution of Parental Education shows that the largest single cohort of parents has achieved 'Higher education', indicating a substantial level of educational capital in the home, although the father's education is slightly lower in the secondary and primary categories, highlighting a complex and varied socioeconomic landscape within the student body.
+   """
 )
