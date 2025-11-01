@@ -27,7 +27,7 @@ GP_df = pd.read_csv(url)
 address_counts = GP_df['address_type'].value_counts().reset_index()
 address_counts.columns = ['Address Type', 'Count']
 
-st.write("2.  To identify factors that may impact attendance and academic engagement):")
+st.write("2.  To identify factors that may impact attendance and academic engagement")
 
 # Create bar chart
 fig1 = px.bar(
