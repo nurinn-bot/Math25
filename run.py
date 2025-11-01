@@ -6,7 +6,7 @@ visualise = st.Page('GP15 Math Data.py', title='Student Data', icon=":material/s
 
 home = st.Page('home.py', title='GP15 Data Analysis and Visualization', default=True, icon=":material/home:")
 
-page = st.Page('Parents.py', title='Students's Parents Data', default=True, icon=":material/home:")
+page = st.Page('Parents.py', title='Parents Data', default=True, icon=":material/home:")
 
 pg = st.navigation(
         {
