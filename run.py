@@ -4,7 +4,7 @@ st.set_page_config(
 )
 visualise = st.Page('GP15 Math Data.py', title='Student Data', icon=":material/school:")
 
-home = st.Page('home.py', title='GP15 Student's Sex Data', default=True, icon=":material/home:")
+home = st.Page('home.py', title='GP15 Student Gender Data', default=True, icon=":material/home:")
 
 pg = st.navigation(
         {
