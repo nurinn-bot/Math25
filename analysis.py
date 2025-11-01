@@ -1,18 +1,22 @@
-import plotly.express as px
-import plotly.graph_objects as go
+import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 # --- Streamlit Configuration ---
 st.set_page_config(
-    page_title="School GP15 Math",
+    page_title="School GP15 Family Data",
     layout="wide"
 )
 
-st.header("GP15 Data Analysis and Visualization 📊", divider="blue")
+st.header("GP15 Family Data Analysis 📊", divider="blue")
 
 # ######################################################################
 # --- 1. DATA LOADING FROM URL (Replaced Dummy Data) ---
 url = 'https://raw.githubusercontent.com/nurinn-bot/Math25/refs/heads/main/student_math_clean%20(1).csv'
+
+# Load data from the remote CSV file
+# Consider using @st.cache_data for improved performance in a real Streamlit app
+GP_df = pd.read_csv(url)
 
 # --- 1️⃣ Distribution of Parental Education (Bar Chart) ---
 mother_education_counts = GP_df['mother_education'].value_counts().sort_index()
