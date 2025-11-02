@@ -68,7 +68,7 @@ st.write(
     """
    72.2% of students come from families with 'Greater than 3' members, while 27.8% come from families of 'Less than or equal to 3' members.
    """
-(
+)
 
 # Count values
 extra_paid_counts = GP_df['extra_paid_classes'].value_counts()
