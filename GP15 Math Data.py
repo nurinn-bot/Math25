@@ -54,7 +54,7 @@ st.plotly_chart(fig1, use_container_width=True)
 
 st.write(
     """
-    Such a residential profile dominates the bar chart, with the vast majority of the students residing in Urban areas-286 students-heavily outweighing those from Rural areas-63 students. This split is critical for context since it suggests that this dataset primarily captures the dynamics of students in an urban setting of education in which resources, commuting infrastructure, and academic opportunities differ significantly from rural settings.
+    The majority of students, 286 counts, reside in Urban areas, while only 63 counts reside in Rural areas.
     """
 )
 # Count school choice reasons
@@ -75,7 +75,7 @@ fig2.update_traces(textinfo='percent+label', pull=[0.05]*len(school_choice_count
 st.plotly_chart(fig2, use_container_width=True)
 st.write(
     """
-   This pie chart reveals the core motivations behind students choosing this specific school, categorized into four reasons: 'course' (35.5%), 'reputation' (28.7%), 'home' (28.1%), and 'other' (7.7%). The finding that academic factors ('course' and 'reputation') collectively account for over 64% of school choice reasons is highly significant. This suggests that students enrolling in this high school are generally a self-selected group who are academically strategic and motivated by the school's specific offerings or quality. The choice is primarily based on academic merit rather than simply being the nearest convenient option ('home' is a close third, but not the dominant reason).
+   The two dominant reasons for school choice are 'course' 35.5% and 'reputation' 28.7%, which collectively form the largest share, with 'home' 28.1% being a close third.
     """
 )
 # Count travel time occurrences
@@ -104,7 +104,7 @@ fig3.update_layout(
 st.plotly_chart(fig3, use_container_width=True)
 st.write(
     """
-    This bar chart represents the frequency of students across four categorical travel time bins. The results are overwhelmingly concentrated in the shortest category, with around 240 students reporting a travel time of less than 15 minutes. Only small fractions report commutes of 15 to 30 minutes, 30 minutes to 1 hour, or longer than 1 hour. The minimal travel time for the vast majority of the sample is a key finding for the attendance and engagement objectives.
+    The largest bar is the <15 min category, containing 240 students. Few students fall into the longer commute times 30 min to 1 hour or >1 hour.
     """
 )
 
