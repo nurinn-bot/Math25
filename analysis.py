@@ -50,7 +50,7 @@ st.plotly_chart(fig1, use_container_width=True)
 
 st.write(
     """
-    The most important finding is the high frequency of 'Higher education' among both parents. This suggests the student body, on average, benefits from strong educational and cultural capital in the home, which often correlates strongly with academic success. However, the differences between Mother's and Father's attainment (e.g., more fathers at lower levels) may necessitate treating these variables separately in the regression models.
+    The highest frequency for both Mother and Father is the 'Higher education' category. Mothers have a higher count in 'Higher education', while Fathers have a higher count in the 'secondary education' and 'primary education (4th grade)' categories.
     """
 )
 # --- 2️⃣ Distribution of Family Size (Pie Chart) ---
@@ -66,9 +66,7 @@ st.plotly_chart(fig2, use_container_width=True)
 
 st.write(
     """
-    The pie chart categorizes family size into two bins: 'Less than or equal to 3' and 'Greater than 3' (referring to family members/children). The vast majority of students, 72.2%, belong to families categorized as 'Greater than 3' members. This heavy skew towards larger family sizes is significant when considering the Resource Dilution Theory. A family with a greater number of children means that fixed resources—such as parental time, attention, financial investment (per child), and shared study space—are spread more thinly.
-    """
-)
+   $72.2% of students come from families with 'Greater than 3' members, while 27.8% come from families of 'Less than or equal to 3' members.
 
 # Count values
 extra_paid_counts = GP_df['extra_paid_classes'].value_counts()
@@ -95,7 +93,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.write(
     """
-    This chart shows the direct financial investment parents make in their children's education. A substantial portion of students, 46.1%, report receiving Extra Paid Classes (tutoring), while the majority, 53.9%, do not. This finding highlights a clear socioeconomic split in access to supplemental resources. Receiving paid tutoring is often a form of socioeconomic advantage intended to boost performance.
+    A slight majority of students, 53.9%, report not taking extra paid classes, while 46.1% report that they do take them.
     """
 )
 
