@@ -29,6 +29,10 @@ st.write(
 )
 
 # Create a pie chart using Plotly
+# --- 1️⃣ Distribution of Sex (Pie Chart) ---
+sex_counts = GP_df['sex'].value_counts().reset_index()
+sex_counts.columns = ['Sex', 'Count']  # rename columns for clarity
+
 fig = px.pie(
     sex_counts,
     names='Sex',
