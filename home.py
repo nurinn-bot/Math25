@@ -18,19 +18,6 @@ url = 'https://raw.githubusercontent.com/nurinn-bot/Math25/refs/heads/main/stude
 # Consider using @st.cache_data for improved performance in a real Streamlit app
 GP_df = pd.read_csv(url)
 
-# Calculate the counts and reset the index to create a Plotly-friendly DataFrame
-# Assumes the loaded CSV has a column named 'sex'
-sex_counts_df = GP_df['sex'].value_counts().reset_index()
-sex_counts_df.columns = ['sex', 'Count']
-
-st.write("Data summary (Counts):")
-st.dataframe(sex_counts_df, hide_index=True)
-
-
-# Count the occurrences of each sex
-sex_counts = GP_df['sex'].value_counts().reset_index()
-sex_counts.columns = ['Sex', 'Count']
-
 st.write("1. To compare the relationship between sex and their Study Time and Final Grade")
 
 # Add text below visualization
