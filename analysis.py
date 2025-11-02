@@ -41,7 +41,7 @@ fig1 = px.bar(
     barmode='group',
     title='Distribution of Parental Education (GP School)',
     labels={'value': 'Count', 'Education Level': 'Education Level'},
-    color_discrete_sequence=px.colors.qualitative.Pastel  # 👈 pastel colors
+    color_discrete_sequence=px.colors.qualitative.Pastel  
 )
 fig1.update_layout(xaxis_tickangle=-45)
 st.plotly_chart(fig1, use_container_width=True)
@@ -59,7 +59,7 @@ fig2 = px.pie(
     names=family_size_counts.index,
     values=family_size_counts.values,
     title='Distribution of Family Size (GP School)',
-    color_discrete_sequence=px.colors.qualitative.Pastel1  # 👈 pastel palette
+    color_discrete_sequence=px.colors.qualitative.Pastel
 )
 fig2.update_traces(textinfo='percent+label')
 st.plotly_chart(fig2, use_container_width=True)
@@ -80,7 +80,7 @@ fig3 = go.Figure(
         hole=0.4,
         textinfo='percent+label',
         textfont=dict(size=14),
-        marker=dict(colors=px.colors.qualitative.Pastel2)  # 👈 pastel donut
+        marker=dict(colors=px.colors.qualitative.Pastel)  
     )]
 )
 
