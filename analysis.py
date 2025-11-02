@@ -12,14 +12,11 @@ st.set_page_config(
 st.header("GP15 Family Data Analysis 📊", divider="blue")
 
 # ######################################################################
-# --- 1. DATA LOADING FROM URL (Replaced Dummy Data) ---
+# --- 1. DATA LOADING ---
 url = 'https://raw.githubusercontent.com/nurinn-bot/Math25/refs/heads/main/student_math_clean%20(1).csv'
-
-# Load data from the remote CSV file
-# Consider using @st.cache_data for improved performance in a real Streamlit app
 GP_df = pd.read_csv(url)
 
-st.write("3. To analysis the socioeconomic influences on student performance")
+st.write("3. To analyse the socioeconomic influences on student performance")
 
 st.write("### 📝 Summary")
 st.write(
@@ -44,7 +41,7 @@ fig1 = px.bar(
     barmode='group',
     title='Distribution of Parental Education (GP School)',
     labels={'value': 'Count', 'Education Level': 'Education Level'},
-    color_discrete_sequence=px.colors.qualitative.Pastel
+    color_discrete_sequence=px.colors.qualitative.Pastel  # 👈 pastel colors
 )
 fig1.update_layout(xaxis_tickangle=-45)
 st.plotly_chart(fig1, use_container_width=True)
@@ -54,6 +51,7 @@ st.write(
     The highest frequency for both Mother and Father is the 'Higher education' category. Mothers have a higher count in 'Higher education', while Fathers have a higher count in the 'secondary education' and 'primary education (4th grade)' categories.
     """
 )
+
 # --- 2️⃣ Distribution of Family Size (Pie Chart) ---
 family_size_counts = GP_df['family_size'].value_counts().sort_index()
 
@@ -61,7 +59,7 @@ fig2 = px.pie(
     names=family_size_counts.index,
     values=family_size_counts.values,
     title='Distribution of Family Size (GP School)',
-    color_discrete_sequence=px.colors.qualitative.Pastel1
+    color_discrete_sequence=px.colors.qualitative.Pastel1  # 👈 pastel palette
 )
 fig2.update_traces(textinfo='percent+label')
 st.plotly_chart(fig2, use_container_width=True)
@@ -72,33 +70,29 @@ st.write(
    """
 )
 
-# Count values
+# --- 3️⃣ Distribution of Extra Paid Classes (Donut Chart) ---
 extra_paid_counts = GP_df['extra_paid_classes'].value_counts()
 
-# Create a donut chart using Plotly
-fig = go.Figure(
+fig3 = go.Figure(
     data=[go.Pie(
         labels=extra_paid_counts.index,
         values=extra_paid_counts.values,
-        hole=0.4,  # makes it a donut
+        hole=0.4,
         textinfo='percent+label',
-        textfont=dict(size=14)
-        marker=dict(colors=px.colors.qualitative.Pastel2)
+        textfont=dict(size=14),
+        marker=dict(colors=px.colors.qualitative.Pastel2)  # 👈 pastel donut
     )]
 )
 
-# Update layout
-fig.update_layout(
+fig3.update_layout(
     title='Distribution of Extra Paid Classes (GP School)',
     showlegend=True,
 )
 
-# Display in Streamlit
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig3, use_container_width=True)
 
 st.write(
     """
     A slight majority of students, 53.9%, report not taking extra paid classes, while 46.1% report that they do take them.
     """
 )
-
