@@ -24,6 +24,13 @@ address_counts.columns = ['Address Type', 'Count']
 
 st.write("2.  To identify factors that may impact attendance and academic engagement")
 
+st.write("### 📝 Summary")
+st.write(
+    """
+    These visualizations concerning geographic and logistical factors reveal that the student sample is overwhelmingly urban-based (approximately 4 out of 5 students reside in urban areas) and faces minimal logistical burdens, as the vast majority of students report a travel time of less than 15 minutes to school. Despite this low travel time, the primary motivators for school choice are academic and reputational ('course' and 'reputation' account for over 64% of reasons), rather than simple proximity ('home' is third at 28.1%). Therefore, this initial exploration suggests that travel time and geographic location are unlikely to be primary drivers of issues related to attendance or engagement for the average student in the sample.
+    """
+)
+
 # Create bar chart
 fig1 = px.bar(
     address_counts,
@@ -100,9 +107,4 @@ st.write(
     This bar chart represents the frequency of students across four categorical travel time bins. The results are overwhelmingly concentrated in the shortest category, with around 240 students reporting a travel time of less than 15 minutes. Only small fractions report commutes of 15 to 30 minutes, 30 minutes to 1 hour, or longer than 1 hour. The minimal travel time for the vast majority of the sample is a key finding for the attendance and engagement objectives.
     """
 )
-st.write("### 📝 Summary")
-st.write(
-    """
-    These visualizations concerning geographic and logistical factors reveal that the student sample is overwhelmingly urban-based (approximately 4 out of 5 students reside in urban areas) and faces minimal logistical burdens, as the vast majority of students report a travel time of less than 15 minutes to school. Despite this low travel time, the primary motivators for school choice are academic and reputational ('course' and 'reputation' account for over 64% of reasons), rather than simple proximity ('home' is third at 28.1%). Therefore, this initial exploration suggests that travel time and geographic location are unlikely to be primary drivers of issues related to attendance or engagement for the average student in the sample.
-    """
-)
+
