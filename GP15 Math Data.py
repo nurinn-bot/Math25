@@ -104,7 +104,7 @@ fig3.update_layout(
 st.plotly_chart(fig3, use_container_width=True)
 st.write(
     """
-    The largest bar is the <15 min category, containing 240 students. Few students fall into the longer commute times 30 min to 1 hour or >1 hour.
+    The largest bar is the <15 min category, containing 243 students. Few students fall into the longer commute times 30 min to 1 hour or >1 hour.
     """
 )
 
